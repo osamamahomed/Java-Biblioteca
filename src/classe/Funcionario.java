@@ -1,6 +1,7 @@
 package classe;
 
 import java.util.Arrays;
+import java.util.Comparator;
 
 public class Funcionario extends Usuario{
 
@@ -63,6 +64,37 @@ public class Funcionario extends Usuario{
             return -1;
         }
 
+        public Livro[] listarLivrosMaisEmprestados(int quantosLivros){
+            Livro[] resultado = new Livro[Math.min(quantosLivros,nrLivros)];
+            int posicao = 0;
+
+            for (int i = 0; i<resultado.length;i++){
+                Livro maisPopular = null;
+                int maxEmprestimos = -1;
+
+                for (int j = 0; j<nrLivros;j++){
+                    boolean jaEstaNoResultado = false;
+
+                    for (int k=0; k<posicao;k++){
+                        if (resultado[k]==livros[j]){
+                            jaEstaNoResultado = true;
+                            break;
+                        }
+                    }
+                    if (jaEstaNoResultado && livros[j].getVezesEmprestados()>maxEmprestimos){
+                        maisPopular = livros[j];
+                        maxEmprestimos = livros[j].getVezesEmprestados();
+                    }
+                }
+
+                if (maisPopular != null) {
+                    resultado[posicao++]=maisPopular;
+                }
+
+            }
+            return resultado;
+        }
+
 
 
         //Metodos auxiliares
@@ -83,13 +115,6 @@ public class Funcionario extends Usuario{
             }
             return null;
         }
-
-
-
-
-
-
-
 
    //metodos extendido do usuario
     @Override

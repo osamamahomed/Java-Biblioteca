@@ -4,7 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="763bcdae-2069-4161-99e5-4558283f4ad6" name="Changes" comment="" />
+    <list default="true" id="763bcdae-2069-4161-99e5-4558283f4ad6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/classe/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Biblioteca TS/classes/Biblioteca.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Biblioteca TS/classes/Emprestimo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Biblioteca TS/classes/Estudante.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Biblioteca TS/classes/Livro.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Biblioteca TS/classes/Professor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Biblioteca TS/classes/Seguranca.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Biblioteca TS/classes/Usuario.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Biblioteca TS/classes/Visitante.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Biblioteca TS/testes/Teste.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Biblioteca TS/testes/Teste.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classe/Estudante.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classe/Estudante.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classe/Funcionario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classe/Funcionario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classe/Livro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classe/Livro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classe/Professor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classe/Professor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classe/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classe/Usuario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classe/Visitante.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classe/Visitante.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,12 +50,13 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Program.executor": "Run",
     "Application.Teste.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/UEM/semestre-1/fundamentos de programacao/Biblioteca TS",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "settings.editor.selected.configurable": "vcs.Git",
     "settings.editor.splitter.proportion": "0.27695352"
   }
 }]]></component>

@@ -4,7 +4,7 @@ public abstract class Usuario {
 
     //Atributos
      private int id;
-     private String nome;
+     String nome;
      private Emprestimo[] emprestimoActivos;
      private int nrEmprestimosActivos;
      private boolean temMulta;

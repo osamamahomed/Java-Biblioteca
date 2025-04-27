@@ -14,7 +14,7 @@ public class Livro {
 
     //Construtor
     public Livro(){}
-    public Livro(String isbn, int id,String titulo, String autor, String genero,int ano,int quantidade){
+    public Livro(String isbn, String titulo, String autor, String genero,int ano,int quantidade){
         this.isbn=isbn;
         this.titulo=titulo;
         this.autor=autor;
